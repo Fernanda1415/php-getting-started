@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="row">
+      <!--<h3 class="center teal-text text-darken-4">Tablas de amortización de un crédito o préstamo</h3>-->
+      <h2 class="center teal-text text-darken-4">Esquema de pagos crecientes</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="col s12 m12 l10 offset-l1">
+    <div class="row">
+      <p>
+        Para poder hacerla tabla de amortizacion por este método primero es necesario calcular 
+        la tasa de interés efectiva. La cual la calculamos dividiendo la tasa de interés 
+        entre 12.
+        <img class="center materialboxed" width="450" src="./TasaEfectiva.JPG">
+      </p>
+      <p>
+          El segundo paso es calcular los intereses del periodo, los cuales los calcularemos 
+          multiplicando el capital inicial por la tasa efectiva de interés.
+
+          <img class="center materialboxed" width="450" src="./CrecienteFormulaIntereses.JPG">
+
+      </p>
+      <p>
+          El tercer paso para construir la tabla de este método sera calcular el 
+          pago del periodo usando la siguiente fórmula:
+
+          <img class="center materialboxed" width="450" src="./CrecienteFormulaPago.JPG">
+
+          Donde:
+          <ul>
+            <b><li>i: Es la tasa de interés</li></b>
+            <b><li>n: Es el némero de periodos que tenemos para pagar la deuda</li></b>
+          </ul>
+      </p>
+      <p>
+          Despues calculamos el monto de la amortización restando los intereses al pago 
+          y continuando asi con cada uno de los periodos. 
+      </p>
+      <p>
+        Finalmente calculamos el monto del capital final restando el monto de amortizacion al 
+        monto de capital  inicial. No olvides que el capital inicial del periodo es el mismo 
+        monto que el onto del periodo final anterior, con excepción del primer periodo donde 
+        será el monto del préstamo.
+
+        <img class="center materialboxed" width="450" src="./DecrecienteFormulaCF.JPG">
+        <hr>
+    </div>
+  </div>
+</div>
+</div>
